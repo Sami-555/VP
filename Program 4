@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+
+	public class Variable_String
+	{
+		public static void Main(string[] args)
+		{
+			string x="Noor_Ul_Hassan_Shah";
+			Console.WriteLine(x.ToUpper());
+			Console.WriteLine(x.ToLower());
+			Console.WriteLine(x[3]);
+			Console.WriteLine(x.IndexOf("h"));
+			Console.WriteLine(x.Length);
+		}
+	}
