@@ -8,7 +8,7 @@ using System.Text.RegularExpressions;
 	{
 		public static void Main(string[] args)
 		{
-			string x="Noor_Ul_Hassan_Shah";
+			string x="sami";
 			Console.WriteLine(x.ToUpper());
 			Console.WriteLine(x.ToLower());
 			Console.WriteLine(x[3]);
