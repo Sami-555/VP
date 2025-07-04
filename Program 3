@@ -1,19 +1,19 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text.RegularExpressions;
 
-namespace HelloWorld
+public class Task4
 {
-	public class Program
-	{
-		public static void Main(string[] args)
-		{	
-      string personName;
-			personName="Noor_ul_hassan_Shah";
-			int personAge=25;
-Console.WriteLine(personName);
-Console.WriteLine(personAge);
-		}
-	}
+    readonly string personName; 
+    const double PI=3.14;
+    
+    Task4(string name) //As readonly value is assigned either at declaration or through constructor function
+    {
+        personName=name;
+        Console.WriteLine(personName);
+    }
+    public static void Main(string[] args)
+    
+    {
+        Task4 T = new Task4("sami");
+        Console.WriteLine(PI);
+    }
 }
